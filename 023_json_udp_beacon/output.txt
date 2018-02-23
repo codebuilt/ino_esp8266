@@ -1,0 +1,26 @@
+²¨ÌØÂÊ£º74880
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x4010f000, len 1384, room 16 
+tail 8
+chksum 0x2d
+csum 0x2d
+v00000000
+~ld
+
+Connecting to WiFi
+....Mode: STA
+PHY mode: N
+Channel: 6
+AP id: 0
+Status: 5
+Auto connect: 1
+SSID (8): JYWHD-26
+Passphrase (13): jc18806863286
+BSSID set: 0
+
+Sending to 192.168.0.108 on port 8888
+{"analog":[2,0,1023,0,1023,1023],"digital":[1,0,1,0,1,1,0,0,0,0,0,0,1,1]}
+Sending to 192.168.0.108 on port 8888
+{"analog":[9,0,1023,0,1023,1023],"digital":[1,0,1,0,1,1,0,0,0,0,0,0,1,1]}

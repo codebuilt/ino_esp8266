@@ -1,0 +1,12 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 1384, room 16 
+tail 8
+chksum 0x2d
+csum 0x2d
+v00000000
+~ld
+
+json string is: 
+{"sensor":"gps","time":1351824120,"data":[48.756080,2.302038]}

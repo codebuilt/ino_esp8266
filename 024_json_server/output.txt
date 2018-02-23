@@ -1,0 +1,45 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x4010f000, len 1384, room 16 
+tail 8
+chksum 0x2d
+csum 0x2d
+v00000000
+~ld
+
+Connecting to WiFi
+....Mode: STA
+PHY mode: N
+Channel: 6
+AP id: 0
+Status: 5
+Auto connect: 1
+SSID (8): JYWHD-26
+Passphrase (13): jc18806863286
+BSSID set: 0
+Server is ready.
+Please connect to http://192.168.26.105
+New client
+GET / HTTP/1.1
+Host: 192.168.26.105
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+Sending: {"analog":[2,0,1023,0,1023,1023],"digital":[1,0,1,0,1,1,0,0,0,0,0,0,1,1]}
+New client
+GET /favicon.ico HTTP/1.1
+Host: 192.168.26.105
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://192.168.26.105/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+Sending: {"analog":[2,0,1023,0,1023,1023],"digital":[1,0,1,0,1,1,0,0,0,0,0,0,1,1]}
